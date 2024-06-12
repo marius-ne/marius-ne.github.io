@@ -29,7 +29,7 @@ def get_personal_data():
             <div class="col-sm-12" style="">
                 <h4>Homepage Template</h4>
                 <p>
-                    Built from a template developed by: <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Martin Niemeyer</a>. Checkout the github repository for instructions on how to use it. <br>
+                    Built from a template developed by: <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Martin Niemeyer</a>. Checkout the github repository for instructions on how to use it.
                 </p>
             </div>
     """
@@ -218,7 +218,8 @@ def get_index_html():
                         {bio_text}
                     </div>
                     <div class="col-md-2" style="">
-                        <img src="assets/img/profile.jpg" class="img-thumbnail" width="500px" alt="Profile picture">
+                            <img src="assets/img/profile.jpg" class="img-thumbnail" style="width: 100%; max-width: 800px;" alt="Profile picture">
+
                     </div>
                 </div>
                 <div class="row" style="margin-top: 1em;">
