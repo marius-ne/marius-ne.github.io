@@ -190,6 +190,8 @@ def get_talks_html():
 def get_index_html():
     #pub = get_publications_html()
     #talks = get_talks_html()
+    pub = ''
+    talks = ''
     name, bio_text, footer = get_personal_data()
     s = f"""
     <!doctype html>
