@@ -9,7 +9,7 @@ def get_personal_data():
     bio_text = f"""
                 <p>
                     I am an Aerospace Engineering Student looking to build a career in control theory and space transportation.
-                    I just finished my double diploma at <a href="https://centralelille.fr/en/" target="_blank">Ecole Centrale de Lille</a>, in France, and am now very excited to join the <a href="https://esa.int" target="_blank">European Space Agency</a> for a 6 month internship.
+                    I just finished my double degree at <a href="https://centralelille.fr/en/" target="_blank">Ecole Centrale de Lille</a>, in France, and am now very excited to join the <a href="https://esa.int" target="_blank">European Space Agency</a> for a 6 month internship.
                     Originally from Germany, afterwards I will return to the <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1" target="_blank">RWTH Aachen</a> to terminate my Bachelor's Degree and begin the Master's Degree in Aerospace Engineering.
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
@@ -222,7 +222,7 @@ def get_index_html():
 
                     </div>
                 </div>
-                <div class="row" style="margin-top: 1em;">
+                <div class="row" style="margin-top: 3em;">
                     <div class="col-sm-12" style="">
                         <h4>Publications</h4>
                         {pub}
@@ -234,6 +234,7 @@ def get_index_html():
                         {talks}
                     </div>
                 </div>
+                <br>
                 <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
                     {footer}
                 </div>
