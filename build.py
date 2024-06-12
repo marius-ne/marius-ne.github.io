@@ -14,19 +14,14 @@ def get_personal_data():
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
-                    <a href="https://m-niemeyer.github.io/assets/other/bio.txt" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-graduation-cap"></i> Bio</a>
-                    <a href="https://m-niemeyer.github.io/assets/pdf/NEUHALFEN_Marius_Resume" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="https://marius.ne.github.io/assets/other/bio.txt" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-graduation-cap"></i> Bio</a>
+                    <a href="https://marius-ne.github.io/assets/pdf/NEUHALFEN_Marius_Resume" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    
                     <a href="mailto:marius-neuhalfen@gmail.com" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://scholar.google.com/citations?user=v1O7i_0AAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
+                    
                     <a href="https://github.com/marius-ne" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
                     <a href="https://www.linkedin.com/in/marius-neuhalfen-6856911ba/" target="_blank" style="margin-right: 5px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
-                    <div id="demo" class="collapse">
-                    <span style="font-weight: bold;">Awards:</span>
-                    In 2011, I graduated as top of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and was admitted to <a href="https://www.mathematik.de/" target="_blank">the Germany Mathematics Society</a> and <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>. In 2017 I received the Dean's List Award for Academic Excellence for my Master's degree.
-                    During my PhD studies, I was a scholar of <a href="https://imprs.is.mpg.de/" target="_blank">the International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>.
-                    Our research projects Occupancy Networks, DVR, and ConvOnet were selected to be among the 15 most influencial <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">CVPR</a> /  <a href="https://www.paperdigest.org/2023/09/most-influential-eccv-papers-2023-09/" target="_blank">ECCV</a> papers of 2019 and 2020.
-                    In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
+                    
                 </div>
                 </p>
     """
@@ -35,8 +30,6 @@ def get_personal_data():
                 <h4>Homepage Template</h4>
                 <p>
                     Built from a template developed by: <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Martin Niemeyer</a>. Checkout the github repository for instructions on how to use it. <br>
-                    <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
-                    <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
                 </p>
             </div>
     """
