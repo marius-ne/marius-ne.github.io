@@ -15,7 +15,7 @@ def get_personal_data():
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
                     <a href="https://marius.ne.github.io/assets/other/bio.txt" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-graduation-cap"></i> Bio</a>
-                    <a href="https://marius-ne.github.io/assets/pdf/NEUHALFEN_Marius_Resume" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="https://marius-ne.github.io/assets/pdf/NEUHALFEN_Marius_Resume.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     
                     <a href="mailto:marius-neuhalfen@gmail.com" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     
@@ -29,7 +29,7 @@ def get_personal_data():
             <div class="col-sm-12" style="">
                 <h4>Homepage Template</h4>
                 <p>
-                    Built from a template developed by: <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Martin Niemeyer</a>. Checkout the github repository for instructions on how to use it.
+                    Built from a template developed by <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Martin Niemeyer</a>. Checkout the github repository for instructions on how to use it.
                 </p>
             </div>
     """
@@ -183,8 +183,8 @@ def get_talks_html():
 def get_index_html():
     #pub = get_publications_html()
     #talks = get_talks_html()
-    pub = ''
-    talks = ''
+    pub = '\n\n\n'
+    talks = '\n\n\n'
     name, bio_text, footer = get_personal_data()
     s = f"""
     <!doctype html>
