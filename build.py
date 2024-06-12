@@ -1,16 +1,16 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Michael", "Niemeyer"]
-    email = "micniemeyer1@gmail.com"
-    twitter = "Mi_Niemeyer"
-    github = "m-niemeyer"
-    linkedin = "michael-niemeyer"
+    name = ["Marius", "Neuhalfen"]
+    email = "marius.neuhalfen@gmail.com"
+    twitter = ""
+    github = "marius-ne"
+    linkedin = "marius-neuhalfen"
     bio_text = f"""
                 <p>
-                    I am a research scientist at Google working on 3D computer vision and generative modeling.
-                    Prior to joining Google, I was a PhD student at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Max Planck Insitute for Intelligent Systems</a> supervised by <a href="https://www.cvlibs.net/" target="_blank">Andreas Geiger</a>.
-                    As an undergraduate student, I studied Mathematics at the <a href="http://www.mi.uni-koeln.de/main/index.en.php" target="_blank">University of Cologne (Germany)</a> and computer science as the Master's at the 
+                    I am an Aerospace Engineering Student looking to build a career in control theory and space transportation.
+                    I just finished my double diploma at <a href="https://centralelille.fr/en/" target="_blank">École Centrale de Lille</a>, in France, and am now very excited to join the <a href="https://esa.int" target="_blank">European Space Agency</a> for a 6 month internship. supervised by <a href="https://www.cvlibs.net/" target="_blank">Andreas Geiger</a>.
+                    Originally from Germany, afterwards I will return to the <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1" target="_blank">RWTH Aachen</a> to terminate my Bachelor's Degree and begin the Master's Degree in Aerospace Engineering. and computer science as the Master's at the 
                     <a href="https://www.st-andrews.ac.uk/computer-science/" target="_blank">University of St Andrews (UK)</a>.
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
