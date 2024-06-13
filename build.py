@@ -218,7 +218,7 @@ def get_index_html():
                         {bio_text}
                     </div>
                     <div class="col-md-2" style="">
-                            <img src="assets/img/profile.jpg" class="img-thumbnail" style="width: 100%; max-width: 800px;" alt="Profile picture">
+                            <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
 
                     </div>
                 </div>
@@ -228,7 +228,7 @@ def get_index_html():
                         {pub}
                     </div>
                 </div>
-                <div class="row" style="margin-top: 3em;">
+                <div class="row" style="margin-top: 1em;">
                     <div class="col-sm-12" style="">
                         <h4>Talks</h4>
                         {talks}
