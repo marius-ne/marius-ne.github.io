@@ -222,13 +222,13 @@ def get_index_html():
 
                     </div>
                 </div>
-                <div class="row" style="margin-top: 3em;">
+                <div class="row" style="margin-top: 1em;">
                     <div class="col-sm-12" style="">
                         <h4>Publications</h4>
                         {pub}
                     </div>
                 </div>
-                <div class="row" style="margin-top: 1em;">
+                <div class="row" style="margin-top: 3em;">
                     <div class="col-sm-12" style="">
                         <h4>Talks</h4>
                         {talks}
