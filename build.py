@@ -206,41 +206,53 @@ def get_index_html():
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div class="row" style="margin-top: 3em;">
-                    <div class="col-sm-12" style="margin-bottom: 1em;">
-                    <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">{name[0]}</span> {name[1]}</h3>
-                    </div>
-                    <br>
-                    <div class="col-md-10" style="">
-                        {bio_text}
-                    </div>
-                    <div class="col-md-2" style="">
-                            <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
-
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 1em;">
-                    <div class="col-sm-12" style="">
-                        <h4>Publications</h4>
-                        {pub}
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 3em;">
-                    <div class="col-sm-12" style="">
-                        <h4>Talks</h4>
-                        {talks}
-                    </div>
-                </div>
-                <br>
-                <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
-                    {footer}
-                </div>
+        <div class="row" style="margin-top: 3em;">
+            <div class="col-sm-12" style="margin-bottom: 1em;">
+            <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">{name[0]}</span> {name[1]}</h3>
             </div>
-            <div class="col-md-1"></div>
-        </div?
+            <br>
+            <div class="col-md-8" style="">
+                {bio_text}
+            </div>
+            <div class="col-md-4" style="">
+                <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
+            </div>
+        </div>
+        <!-- <div class="row" style="margin-top: 3em;">
+            <div class="col-sm-12" style="">
+                <h4>Talks</h4>
+                {talks}
+            </div>
+        </div> 
+        <div class="row" style="margin-top: 3em;">
+            <div class="col-sm-12" style="">
+                <h4>News</h4>
+                    <table>
+                        <tr>
+                        <td>Jun, 2023 &#8194;</td>
+                        <td> We won the <a href="https://opendrivelab.com/AD23Challenge.html#nuplan_planning" target="_blank">2023 nuPlan challenge</a>!</td>
+                        </tr>
+                        <tr>
+                        <td>Feb, 2023 &#8194;</td>
+                        <td> I started my master's thesis at the <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group</a>, supervised by <a href="https://kashyap7x.github.io/" target="_blank">Kashyap Chitta</a>.</td>
+                        </tr>
+                    </table> 
+            </div> -->
+        <div class="row" style="margin-top: 3em;">
+            <div class="col-sm-12" style="">
+                <h4>Publications</h4>
+                {pub}
+            </div>
+        </div>
+        <div class="row" style="margin-top: 3em;">
+            <div class="col-sm-12" style="">
+                <h4>University Projects</h4>
+                {talks}
+            </div>
+        </div> 
+        <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
+            {footer}
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
