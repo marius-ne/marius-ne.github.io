@@ -12,9 +12,7 @@ site_theme               : "default"
 title                    : "Marius Neuhalfen"
 title_separator          : "-"
 name                     : &name "Marius Neuhalfen"
-description              : &description > 
-European Engineer interested in Optimization, Space Exploration and Green Energy.
-Strong curiosity for learning new things and improving a little bit every day.
+description              : &description "European Engineer interested in Optimization, Space Exploration and Green Energy. Strong curiosity for learning new things and improving a little bit every day."
 url                      : https://marius-ne.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/marius-ne/marius-ne.github.io"
@@ -307,6 +305,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-seo-tag # M: added for SEO
 
 # Mimic GitHub Pages with --safe
 whitelist:
