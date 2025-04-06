@@ -27,9 +27,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : &description
   location         : "All over Europe"
-  employer         : "Blackswan Space"
+  employer         : "https://blackswanspace.com/"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "neuhalfen.marius@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -45,12 +45,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/marius-ne"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "marius-neuhalfen" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -123,7 +123,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "Gy_oeXLxfQwTYgjBiKkWfG6XE-5AwwLF6ex9oCaFt7U"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
