@@ -11,35 +11,42 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Master of Science in Aerospace Engineering, RWTH Aachen University, 2027 (expected)
+* Master of Science in Engineering (Diplôme d'Ingénieur), École Centrale de Lille, 2027 (expected)
+* Bachelor of Science in Mechanical Engineering, RWTH Aachen University, 2025
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* March - September 2025: Intern
+  * Blackswan Space
+  * Duties included: Research into Vision-Based Navigation
+  * Supervisor: Adam Sherwood
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* July - December 2024: Intern
+  * European Space Agency
+  * Duties included: Research into Vision-Based Navigation
+  * Supervisor: Jonathan Grzymisch
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July - September 2020: Intern
+  * Jena Optronik
+  * Duties included: ESD safety for space-grade hardware
+  * Supervisor: Stefan Humbla
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Mathematical optimization
+* Structural Design
+* Programming:
+  * Python
+  * MATLAB
+
+Languages 
+=====
+* English (C1)
+* French (C1)
+* German (Native)
+* Spanish (A2)
+* Lithuanian (A1)
 
 Publications
 ======
