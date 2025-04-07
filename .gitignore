@@ -12,3 +12,5 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+testbook/

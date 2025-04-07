@@ -1,0 +1,24 @@
+[project]
+name = "marius-ne-github-io"
+version = "1"
+description = "Github Website of Marius Neuhalfen"
+authors = [
+    {name = "marius-ne",email = "m.e.neuhalfen@t-online.de"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter-book (>=1.0.4.post1,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.4,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "marius_ne"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
