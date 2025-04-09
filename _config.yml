@@ -243,6 +243,7 @@ defaults:
       comments: true
       share: true
       related: true
+      permalink: /:title
   # _pages
   - scope:
       path: ""
