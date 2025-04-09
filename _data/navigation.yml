@@ -9,7 +9,7 @@
 
 main:
   - title: "Code"
-    url: /code/
+    url: /codeMaster/
 
   - title: "Publications"
     url: /publications/
