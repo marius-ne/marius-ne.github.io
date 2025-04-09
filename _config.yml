@@ -235,7 +235,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: posts #changing this to pages breaks everything, TODO: figure out why
     values:
       #layout: single
       author_profile: true
