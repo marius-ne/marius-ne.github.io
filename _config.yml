@@ -290,7 +290,7 @@ defaults:
       path: ""
       type: code
     values:
-      layout: single
+      layout: jupyterBook
       author_profile: true
       share: true
 
