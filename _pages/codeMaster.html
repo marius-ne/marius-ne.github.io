@@ -9,13 +9,10 @@ author_profile: true
 
 
 {% for post in site.code %}
-  <a href="{{ post.url }}/index.html" target="_blank">
-    {{ post.url }}
-    {{ post.title }}
-    <pre>
-      {{ post | jsonify }}
-    </pre>
+  <a href="https://nbviewer.org/url/{{ site.url }}/files/notebooks.ipynb" target="_blank" rel="noopener noreferrer">
+  Link text
   </a>
+  <a href="{{ post.url | relative_url }}" class="post-link" title="{{ post.title | escape }}">{{ post.title }}</a>
 {% endfor %}
 
 Test text
