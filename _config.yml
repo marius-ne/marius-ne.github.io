@@ -9,6 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
+remote_theme: pages-themes/dinky@v0.2.0
+
 title                    : "Marius Neuhalfen"
 title_separator          : "-"
 name                     : &name "Marius Neuhalfen"
@@ -318,6 +320,8 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-seo-tag # M: added for SEO
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
 
 # Mimic GitHub Pages with --safe
 whitelist:
