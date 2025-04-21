@@ -8,20 +8,30 @@ author_profile: true
 {% include base_path %}
 
 <div class="notebook-list">
-  {% for notebook in site.static_files %}
-    {% if notebook.path contains 'files/notebooks/' and notebook.extname == '.ipynb' %}
-      <div class="notebook-item" style="margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
-        <h3 style="margin: 0 0 10px;">{{ notebook.name }}</h3>
-        <p style="margin: 0 0 10px; color: #555;">Path: {{ notebook.path }}</p>
-        <a href="https://nbviewer.org/url/{{ site.url | replace: 'https://', '' }}/{{ notebook.path }}" 
-           target="_blank" 
-           rel="noopener noreferrer" 
-           style="color: #007bff; text-decoration: none; font-weight: bold;">
-          Open in Nbviewer
-        </a>
-      </div>
-    {% endif %}
-  {% endfor %}
+
+  <div class="notebook-item" style="margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
+    <h3 style="margin: 0 0 10px;">Chapter 8 - Python for Finance</h3>
+    <p style="margin: 0 0 10px; color: #555;">
+      Exercises and additional comments of chapter 8 from 'Python for Finance'.
+    </p>
+    <a href="https://nbviewer.org/url/{{ site.url | replace: 'https://', '' }}/files/notebooks/chapter8.ipynb" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       style="color: #007bff; text-decoration: none; font-weight: bold;">
+      Open in Nbviewer
+    </a>
+  </div>
+
+  <!-- <div class="notebook-item" style="margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
+    <h3 style="margin: 0 0 10px;">Notebook 2</h3>
+    <p style="margin: 0 0 10px; color: #555;">Description: This is the second notebook description.</p>
+    <a href="https://nbviewer.org/url/{{ site.url | replace: 'https://', '' }}/files/notebooks/notebook2.ipynb" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       style="color: #007bff; text-decoration: none; font-weight: bold;">
+      Open in Nbviewer
+    </a>
+  </div> -->
 </div>
 
 
