@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-remote_theme: pages-themes/dinky@v0.2.0
+#remote_theme: pages-themes/dinky@v0.2.0
 
 title                    : "Marius Neuhalfen"
 title_separator          : "-"
@@ -28,7 +28,7 @@ author:
   name             : "Marius Neuhalfen"
   pronouns         : # example: "she/her"  
   bio              : &description
-  location         : "All over Europe"
+  location         : "Somewhere in Europe"
   employer         : "Blackswan Space"
   uri              : "https://blackswanspace.com/"
   email            : "neuhalfen.marius@gmail.com" 
@@ -320,7 +320,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-seo-tag # M: added for SEO
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  #- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 
 # Mimic GitHub Pages with --safe
