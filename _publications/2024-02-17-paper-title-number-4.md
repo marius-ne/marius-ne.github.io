@@ -6,7 +6,7 @@ permalink: /publication/EUCASS_Abstract_NEUHALFEN
 excerpt: 'This paper is about View Synthesis for Verification of Vision-Based Navigation.'
 date: 2025-06-30
 venue: '11th European Conference for AeroSpace Sciences (EUCASS)'
-paperurl: 'http://marius-ne.github.io/files/EUCASS_Abstract_NEUHALFEN.pdf'
+paperurl: 'https://marius-ne.github.io/files/EUCASS_Abstract_NEUHALFEN.pdf'
 #citation: ''
 ---
 
