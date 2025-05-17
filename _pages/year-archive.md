@@ -7,9 +7,7 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
-*Coming soon*.
 
-<!--
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
@@ -20,4 +18,3 @@ redirect_from:
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
--->
