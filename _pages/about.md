@@ -9,9 +9,11 @@ redirect_from:
 
 **Welcome to my Website!**
 ======
-Here you will find information about my professional activites as well as additionnal things I would like to share. The goal for this site is to be a storage of things I created that I think are worth publishing. 
+This website is my place for sharing interesting stuff.
 
-This website is adapted from the Academic Pages Github pages template. Check them out here for further information: [Academic Pages](https://github.com/academicpages/academicpages.github.io). The open-source repository of this website can be found [here](https://github.com/marius-ne/marius-ne.github.io).
+Feel free to have a look around and contact me if something sparks your curiosity!
+
+*This website is adapted from the Academic Pages Github pages template. Check them out here for further information: [Academic Pages](https://github.com/academicpages/academicpages.github.io). The open-source repository of this website can be found [here](https://github.com/marius-ne/marius-ne.github.io).*
 
 
 
