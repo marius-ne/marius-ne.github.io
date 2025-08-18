@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ac62337bac1af4490136e1632b12371e5b7d9399ec64715f20e6cf6b9e01258c
-size 259
+{% include base_path %}
+
+{% if site.tag_archive.type and page.tags[0] %}
+  {% include tag-list.html %}
+{% endif %}
+
+{% if site.category_archive.type and page.categories[0] and page.collection != 'publications' %}
+  {% include category-list.html %}
+{% endif %}

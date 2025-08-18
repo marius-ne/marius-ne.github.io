@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f419e2ab3441abba2337fd8b5b9df535f73b47e33246c4329bca74ffc747f7d6
-size 545
+{% if site.comments.provider and page.comments %}
+
+{% case site.comments.provider %}
+{% when "disqus" %}
+  {% include /comments-providers/disqus.html %}
+{% when "discourse" %}
+  {% include /comments-providers/discourse.html %}
+{% when "facebook" %}
+  {% include /comments-providers/facebook.html %}
+{% when "google-plus" %}
+  {% include /comments-providers/google-plus.html %}
+{% when "staticman" %}
+  {% include /comments-providers/staticman.html %}
+{% when "custom" %}
+  {% include /comments-providers/custom.html %}
+{% endcase %}
+
+{% endif %}

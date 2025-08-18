@@ -1,3 +1,8 @@
+assets/plotly/randomrotaxes_5000.html filter=lfs diff=lfs merge=lfs -text
+assets/plotly/surface_area_cloud.html filter=lfs diff=lfs merge=lfs -text
+assets/plotly/180_rmse_cloud.html filter=lfs diff=lfs merge=lfs -text
+assets/plotly/180_ssim_cloud.html filter=lfs diff=lfs merge=lfs -text
+assets/plotly/errors_slider_cloud.html filter=lfs diff=lfs merge=lfs -text
 assets/plotly/*.html filter=lfs diff=lfs merge=lfs -text
 _pages/180_rmse_cloud.html filter=lfs diff=lfs merge=lfs -text
 _pages/180_ssim_cloud.html filter=lfs diff=lfs merge=lfs -text

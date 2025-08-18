@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b3ecd37a1f75df7a5c57dde21f586536af3fd18aa7c3445aa6e00570c96d8db5
-size 463
+---
+layout: archive
+permalink: /year-archive/
+title: "Blog posts"
+author_profile: true
+redirect_from:
+  - /wordpress/blog-posts/
+---
+
+
+{% assign last_year = nil %}
+{% for post in site.posts %}
+  {% assign year = post.date | date: '%Y' %}
+  {% if year != last_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">
+      {{ year }}
+    </h2>
+    {% assign last_year = year %}
+  {% endif %}
+  {% include archive-single.html post=post %}
+{% endfor %}
+
