@@ -1,3 +1,4 @@
+*.html filter=lfs diff=lfs merge=lfs -text
 assets/plotly/*.html filter=lfs diff=lfs merge=lfs -text
 _pages/180_rmse_cloud.html filter=lfs diff=lfs merge=lfs -text
 _pages/180_ssim_cloud.html filter=lfs diff=lfs merge=lfs -text
