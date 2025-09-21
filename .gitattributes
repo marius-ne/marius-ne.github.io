@@ -2,6 +2,7 @@ assets/plotly/surfaceareapx/index.html filter=lfs diff=lfs merge=lfs -text
 assets/plotly/180rmse/index.html filter=lfs diff=lfs merge=lfs -text
 assets/plotly/180ssim/index.html filter=lfs diff=lfs merge=lfs -text
 assets/plotly/rotErrorsSphere/index.html filter=lfs diff=lfs merge=lfs -text
+assets/plotly/transErrsOverAttsFlyaround/index.html filter=lfs diff=lfs merge=lfs -text
 _pages/180_rmse_cloud.html filter=lfs diff=lfs merge=lfs -text
 _pages/180_ssim_cloud.html filter=lfs diff=lfs merge=lfs -text
 _pages/surface_area_cloud.html filter=lfs diff=lfs merge=lfs -text
